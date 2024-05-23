@@ -27,3 +27,36 @@ npx cypress run --record --key 9ee05944-af95-4faf-a21d-c13ab2845d2e
 # Link to Cypress Dashboard
 
 https://cloud.cypress.io/projects/o51bwd/runs
+
+# Testing Approach
+
+Functional Testing:
+Investment Amount: Testing with boundary values ($1,000 and $1,000,000), invalid inputs (negative numbers, strings, special characters), and typical values.
+Interest Rate (APY): Verify the input accepts valid percentage values, including boundary values and typical rates.
+Investment Duration: Ensuring the slider works correctly for all possible durations (1 to 10 years) and verify the corresponding display changes accurately.
+
+Usability Testing: 
+Ensuring all elements (input fields, slider, buttons) are visible and accessible.
+Verify that the slider is easy to use and accurately reflects the selected duration.
+Checking that the "Purchase SteadyPace™" button is clickable and leads to the correct subsequent actions or pages.
+Testing the layout on various devices and screen sizes to ensure that all elements are displayed properly and are usable.
+
+Performance Testing:
+Load Testing: Ensuring the calculator performs well under load, such as when multiple users are using it simultaneously.
+Response Time: Measuring the time it takes for the projected account value to update after changing the input values.
+
+Considerations
+Boundary Testing: Testing boundary values for the input fields to ensure the application handles edge cases correctly.
+
+Error Handling:Checking how the application handles invalid inputs and whether appropriate error messages are displayed to guide the user.
+
+Cross-Browser Compatibility: Testing the calculator on different browsers (Chrome, Firefox, Safari, Edge) to ensure consistent behavior and appearance.
+
+User Experience: Calculator provides a seamless and intuitive experience, with clear instructions and feedback for the user.
+
+
+
+
+
+
+
