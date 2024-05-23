@@ -1,0 +1,16 @@
+{
+  "mainHeading" : "SteadyPace™ Growth calculator",
+  "headings" : {
+    "investmentAmountLabel" : "Investment amount",
+    "investmentRateLabel" : "Interest rate (APY)",
+    "investmentDurationLabel" : "Investment duration",
+    "projectedAccountLabel" : "Projected account value"
+  },
+  "paragraph" : "Use the SteadyPace™ growth estimation calculator to see how your investment can grow over time.",
+  "investmentRates" : {
+    "threeYrsRate" : "6%",
+    "fourYrsRate" : "6.1%",
+    "fiveYrsRate" : "6.15%"
+  },
+  "sliderValue" : 0
+}
