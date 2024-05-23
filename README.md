@@ -45,13 +45,10 @@ Performance Testing:
 Load Testing: Ensuring the calculator performs well under load, such as when multiple users are using it simultaneously.
 Response Time: Measuring the time it takes for the projected account value to update after changing the input values.
 
-Considerations
+Considerations:
 Boundary Testing: Testing boundary values for the input fields to ensure the application handles edge cases correctly.
-
 Error Handling:Checking how the application handles invalid inputs and whether appropriate error messages are displayed to guide the user.
-
 Cross-Browser Compatibility: Testing the calculator on different browsers (Chrome, Firefox, Safari, Edge) to ensure consistent behavior and appearance.
-
 User Experience: Calculator provides a seamless and intuitive experience, with clear instructions and feedback for the user.
 
 
